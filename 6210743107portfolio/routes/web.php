@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,3 +36,4 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
     
     Route::post('logout','Auth\AuthenticatedSessionController@destroy')->name('logout');
 });
+Route::resource('posts', PostController::class);
