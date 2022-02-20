@@ -54,7 +54,7 @@
         <ul>
             <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
             <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-            <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+            <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Education and Experience</span></a></li>
             <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-translate"></i> <span>Skill</span></a></li>
             <li><a href="#services" class="nav-link scrollto"><i class="bi bi-tools"></i> <span>Framework</span></a></li>
             <li><a href="#portfolio" class="nav-link scrollto"><i class="bi bi-images"></i> <span>Image</span></a></li>
@@ -70,7 +70,7 @@
         <h1>Tanakorn Tananyapat</h1>
         <p>I'm <span class="typed" data-typed-items="Designer, Developer"></span></p>
         <div class="social-links">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="https://twitter.com/taaaaaan5" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="https://www.facebook.com/tawan.tanakorn.35" class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="https://www.instagram.com/wo_aunn/" class="instagram"><i class="bx bxl-instagram"></i></a>
             <a href="https://github.com/tananyapat" class="linkedin"><i class="bx bxl-github"></i></a>
@@ -91,11 +91,11 @@
             </div>
 
             <div class="row">
-            <div class="col-lg-4">
-                <img src="/assets/img/profile-img.jpg" class="img-fluid" alt="">
-            </div>
+            <img class='tawan' src="/assets/img/profile-img.jpg" alt="">
+   
             <div class="col-lg-8 pt-4 pt-lg-0 content">
                 <h3>Tawan</h3>
+                <br></br>
                 <p class="fst-italic">
                 Hello, My name is Tanakorn Tananyapat
                 my nickname is Tawan. I'm studying at Thammasat University
@@ -133,7 +133,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-            <h2>Resume</h2>
+            <h2>Education and Experience</h2>
             </div>
 
             <div class="row">
@@ -372,7 +372,7 @@ First described in 2015, Flutter was released in May 2017</p>
                 <li data-filter="*" class="filter-active">All</li>
                 <li data-filter=".filter-hompital">Hompital</li>
                 <li data-filter=".filter-ekyc">E-KYC</li>
-                <li data-filter=".filter-drunk"> Hok Bor Nub Lub Garn</li>
+                <li data-filter=".filter-drunk"> Hak Bor Nub Lub Garn</li>
                 <li data-filter=".filter-anti">Anti covid 19</li>
                 </ul>
             </div>
@@ -383,13 +383,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-drunk">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/drunk.png" class="img-fluid" alt="">
+                <img src="/assets/img/drunk.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/drunk.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/drunk.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -397,13 +397,12 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-drunk">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/drunk1.png" class="img-fluid" alt="">
+                <img src="/assets/img/drunk1.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/drunk1.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/drunk1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                     </div>
                 </div>
                 </div>
@@ -411,13 +410,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/hompital.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/hompital.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/hompital.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/hompital.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -425,13 +424,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/checklist.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/checklist.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/checklist.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/checklist.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                   
                     </div>
                 </div>
                 </div>
@@ -439,13 +438,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/covidtoday.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/covidtoday.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/covidtoday.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/covidtoday.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -453,13 +452,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/log.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/log.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/log.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/log.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -467,13 +466,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/registerhom.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/registerhom.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/registerhom.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/registerhom.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -481,13 +480,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/slide.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/slide.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/slide.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/slide.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -495,13 +494,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-hompital">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/hompital/vac.png" class="img-fluid" alt="">
+                <img src="/assets/img/hompital/vac.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/vac.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/hompital/vac.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                
                     </div>
                 </div>
                 </div>
@@ -509,13 +508,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-anti">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/anti/home.png" class="img-fluid" alt="">
+                <img src="/assets/img/anti/home.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/home.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/anti/home.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  
                     </div>
                 </div>
                 </div>
@@ -523,13 +522,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-anti">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/anti/new.png" class="img-fluid" alt="">
+                <img src="/assets/img/anti/new.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/new.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/anti/new.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                 
                     </div>
                 </div>
                 </div>
@@ -537,13 +536,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-anti">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/anti/color.png" class="img-fluid" alt="">
+                <img src="/assets/img/anti/color.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/color.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/anti/color.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                   
                     </div>
                 </div>
                 </div>
@@ -551,13 +550,13 @@ First described in 2015, Flutter was released in May 2017</p>
             
             <div class="col-lg-4 col-md-6 portfolio-item filter-anti">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/anti/vacinfo.png" class="img-fluid" alt="">
+                <img src="/assets/img/anti/vacinfo.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/vacinfo.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/anti/vacinfo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+          
                     </div>
                 </div>
                 </div>
@@ -565,13 +564,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-anti">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/anti/knowledge.png" class="img-fluid" alt="">
+                <img src="/assets/img/anti/knowledge.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/knowledge.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/anti/knowledge.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                 
                     </div>
                 </div>
                 </div>
@@ -579,13 +578,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-anti">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/anti/antivvac.png" class="img-fluid" alt="">
+                <img src="/assets/img/anti/antivvac.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
                     <h4>Test</h4>
                     <p>Test</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/antivvac.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/anti/antivvac.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+
                     </div>
                 </div>
                 </div>
@@ -593,13 +592,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-ekyc">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/ekyc/home.png" class="img-fluid" alt="">
+                <img src="/assets/img/ekyc/home.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
-                    <h4>Test</h4>
-                    <p>Test</p>
+                    <h4>EKYC</h4>
+                    <p>EKYC</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/home.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/ekyc/home.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+         
                     </div>
                 </div>
                 </div>
@@ -607,13 +606,13 @@ First described in 2015, Flutter was released in May 2017</p>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-ekyc">
                 <div class="portfolio-wrap">
-                <img src="/assets/img/ekyc/upload.png" class="img-fluid" alt="">
+                <img src="/assets/img/ekyc/upload.png" style='border-radius:20px' class="img-fluid" alt="">
                 <div class="portfolio-info">
-                    <h4>Test</h4>
-                    <p>Test</p>
+                    <h4>EKYC</h4>
+                    <p>EKYC</p>
                     <div class="portfolio-links">
-                    <a href="/assets/img/hompital/upload.png data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="/assets/img/ekyc/upload.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                
                     </div>
                 </div>
                 </div>
@@ -707,24 +706,23 @@ First described in 2015, Flutter was released in May 2017</p>
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-        <h3>Tanakorn Tananyapat</h3>
-        <p>My Resume Website</p>
-        <div class="social-links">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="https://www.facebook.com/tawan.tanakorn.35" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/wo_aunn/" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="https://github.com/tananyapat" class="linkedin"><i class="bx bxl-github"></i></a>
-        </div>
-        <div class="copyright">
-            &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: [license-url] -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-            Designed by <a href="https://github.com/tananyapat">Tanakorn</a>
-        </div>
+            <h3>Tanakorn Tananyapat</h3>
+            <br>
+            <br>
+            <div class="social-links">
+                <a href="https://twitter.com/taaaaaan5" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/tawan.tanakorn.35" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/wo_aunn/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://github.com/tananyapat" class="linkedin"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: [license-url] -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+                Designed by <a href="https://github.com/tananyapat">Tanakorn</a>
+            </div>
         </div>
     </footer><!-- End Footer -->
 

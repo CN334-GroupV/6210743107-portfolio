@@ -1000,6 +1000,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  margin-top: 200px;
   background: #f7f8f9;
   color: #45505b;
   font-size: 14px;
@@ -1052,9 +1053,16 @@ section {
 .contractcontainer{
   justify-content: center;
   align-items: center;
+
 }
 
 .hideee{
   display: none;
 }
 
+
+.tawan{
+  width: 400px;
+  height: 485px;
+  border-radius: 50px;
+}

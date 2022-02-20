@@ -71,7 +71,7 @@
             .button{
                 width:500px;
                 height:1080px;
-                background: rgba(0,0,0,0.85);
+                background: rgba(0,0,0,0.70);
             }
 
             .admin:hover{
@@ -138,22 +138,22 @@
             @if (Route::has('login'))
                 <div class="button">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="login btn btn-outline-light">Dashboard</a>
 
 
                     @else
                         <h1 class='header'>Portfolio</h1>
-                        <a href="{{ route('login') }}" class="login btn btn-outline-danger">User Login</a>
+                        <a href="{{ route('login') }}" class="login btn btn-outline-light">User Login</a>
 
                     @endif
                     @auth('admin')
-                    <a href="{{ route('admin.dashboard')}}">Admin dashboard</a>
+                    <a href="{{ route('admin.dashboard')}}"class='admin btn btn-outline-light'>Admin dashboard</a>
                     @else
-                    <a href="{{ route('admin.login')}}" class='admin btn btn-outline-primary'>Admin login</a>
+                    <a href="{{ route('admin.login')}}" class='admin btn btn-outline-light'>Admin login</a>
                     @endauth
 
                     @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="register btn btn-outline-warning">Register</a>
+                    <a href="{{ route('register') }}" class="register btn btn btn-outline-light">Register</a>
                     @endif
                 </div>
             @endif
