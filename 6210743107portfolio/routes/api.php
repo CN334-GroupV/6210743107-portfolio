@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -17,3 +18,18 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
+    Route::namespace('Auth')->middleware('guest:admin')->group(function(){
+        // login route
+        Route::get('login','AuthenticatedSessionController@create')->name('login');
+        Route::post('login','AuthenticatedSessionController@store')->name('adminlogin');
+    });
+    Route::middleware('admin')->group(function(){
+        Route::get('dashboard','HomeController@index')->name('dashboard');
+    });
+    
+    Route::post('logout','Auth\AuthenticatedSessionController@destroy')->name('logout');
+});
+Route::resource('posts', PostController::class);
+Route::get('project', [ProjectController::class,'index']);
+Route::get('projects', [ProjectController::class,'read'])->name('project');

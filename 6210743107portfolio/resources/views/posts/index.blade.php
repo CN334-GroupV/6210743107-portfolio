@@ -56,6 +56,7 @@
                 </td>
             </tr>
         @endforeach
+        <a href="{{ route('project')}}" class="btn btn-Primary mt-1 my-4">show ajax</a>
     </table>
 
 

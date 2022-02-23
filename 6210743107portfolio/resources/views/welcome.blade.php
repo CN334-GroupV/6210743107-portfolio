@@ -77,7 +77,7 @@
             .admin:hover{
                 color: rgb(255,255,255);
                 background: rgb(75,75,251);
-                box-shadow: 0 0 20px rgb(75,75,251), 0 0 40px rgb(75,75,251), 0 0 60px rgb(75,75,251);
+                box-shadow: 0 0 40px rgb(75,75,251), 0 0 40px rgb(75,75,251), 0 0 80px rgb(75,75,251);
                 transition-delay: 0.1s;
             }
 
