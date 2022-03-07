@@ -294,12 +294,7 @@
                 </div>
                 </div>
 
-                <div class="progress">
-                <span class="skill">C, C++, C# <i class="val">20%</i></span>
-                <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                </div>
+
 
             </div>
 
@@ -371,7 +366,7 @@ First described in 2015, Flutter was released in May 2017</p>
                 <li data-filter="*" class="filter-active">All</li>
                 <li data-filter=".filter-hompital">Hompital</li>
                 <li data-filter=".filter-ekyc">E-KYC</li>
-                <li data-filter=".filter-drunk"> Hak Bor Nub Lub Garn</li>
+                <li data-filter=".filter-drunk">Hak Bor Nub Lub Garn</li>
                 <li data-filter=".filter-anti">Anti covid 19</li>
                 </ul>
             </div>
