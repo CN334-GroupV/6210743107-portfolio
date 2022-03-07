@@ -56,7 +56,11 @@
                 color:black;
                 font-size:50px;
             }
+            .pagenum{
+                margin-top:75px;
+                font-size:25px;
 
+            }
 
         </style>
     </head>
@@ -75,11 +79,13 @@
                 <div class="col-md-12">
                     <h2 class='header'>Project</h2>
                     @auth('admin')
-                        <a href="{{ route('posts.create')}}" class="btn btn-success my-3">create new post</a>
-                        <button class="btn btn-danger my-3" onclick="location.href='{{ url('http://127.0.0.1:8000/admin/dashboard') }}'" >Back to Portfolio</button>
+                    <button class="btn btn-danger my-4" onclick="location.href='{{ url('http://127.0.0.1:8000/admin/dashboard') }}'" >Back to Portfolio</button>
+                        <a href="{{ route('posts.create')}}" class="btn btn-success my-4">Add Project</a>
+                        <a href="{{ route('project')}}" class="btn btn-primary my-4">show ajax</a>
                         @else
-                        <a href="{{ route('admin.login')}}" class="btn btn-success my-3">Admin login</a>
-                        <button class="btn btn-danger my-3" onclick="location.href='{{ url('http://127.0.0.1:8000/dashboard') }}'" >Back to Portfolio</button>
+                        <button class="btn btn-danger my-4" onclick="location.href='{{ url('http://127.0.0.1:8000/dashboard') }}'" >Back to Portfolio</button>
+                        <a href="{{ route('admin.login')}}" class="btn btn-success my-4">Admin login</a>
+                        <a href="{{ route('project')}}" class="btn btn-primary my-4 ">show ajax</a>
                     @endauth
                     
                 </div>
@@ -94,7 +100,7 @@
             <table class="table table-bordered">
                 <tr>
                     <th>No.</th>
-                    <th>Title</th>
+                    <th>Project</th>
                     <th>Description</th>
                     <th width="280px">Action</th>
                 </tr>
@@ -124,11 +130,13 @@
                         </td>
                     </tr>
                 @endforeach
-                <a href="{{ route('project')}}" class="btn btn-Primary mt-1 my-4">show ajax</a>
             </table>
+            <div class='pagenum'>
+                {!!$data->links()!!}
+            </div>
 
-
-
-        @endsection
+            
+            
+            @endsection
     </div>
 </body>

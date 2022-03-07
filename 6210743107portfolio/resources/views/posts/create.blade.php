@@ -5,8 +5,7 @@
 
     <div class="row mt-5">
         <div class="col-md-12">
-        <h2>Add new</h2>
-        <a href="{{ route('posts.index') }}" class="btn btn-primary">Back</a>
+        <h2>Add Project</h2>
         </div>
     </div>
 
@@ -26,7 +25,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="from-group">
-                    <strong>Title:</strong>
+                    <strong>Project:</strong>
                     <input type="text" name="title" class="form-control" placeholder="Enter Title"></input>
                 </div>
             </div>
@@ -39,6 +38,7 @@
                 </div>
             </div>
             <div class=col-md-12>
+                <a href="{{ route('posts.index') }}" class="btn btn-primary">Back</a>
                 <button type="Submit" class="btn btn-success my-3">Submit</button>
             </div>
         </div> 
