@@ -115,7 +115,7 @@
                 </div>
                 <div class="col-lg-6">
                     <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.eng in Software Engineering</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>tanakorntananyapat@gmail.com</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Role:</strong> <span>Student</span></li>

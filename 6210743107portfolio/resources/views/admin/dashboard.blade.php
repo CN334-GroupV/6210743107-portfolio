@@ -1,7 +1,7 @@
 <x-admin-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('AdminDashboard') }}
         </h2>
     </x-slot>
     <!DOCTYPE html>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-lg-6">
                     <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.eng in Software Engineering</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>tanakorntananyapat@gmail.com</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Role:</strong> <span>Student</span></li>
@@ -263,9 +263,9 @@
                 </div>
 
                 <div class="progress">
-                <span class="skill">Dart <i class="val">40%</i></span>
+                <span class="skill">Dart <i class="val">50%</i></span>
                 <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 </div>
 
@@ -281,16 +281,16 @@
                 </div>
 
                 <div class="progress">
-                <span class="skill">Python <i class="val">75%</i></span>
+                <span class="skill">Python <i class="val">85%</i></span>
                 <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 </div>
 
                 <div class="progress">
-                <span class="skill">Java <i class="val">40%</i></span>
+                <span class="skill">Java <i class="val">50%</i></span>
                 <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 </div>
 
